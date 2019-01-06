@@ -1,0 +1,107 @@
+# 输出Hello World
+print("Hello World")
+
+
+# 输出itcast.cn
+print("itcast.cn")
+
+# 调用python解释器自带的打印功能,打印"Hello Python"
+print("Hello Python")
+"""
+调用python解释器自带的打印功能,打印"Hello Python"
+
+"""
+print("Hello Python")
+'''
+调用python解释器自带的打印功能,打印"Hello Python"
+'''
+print("Hello Python")
+
+# 格式化输出
+age = 23
+name = "龟叔"
+print("我的名字是%s,我的年龄是%d" % (name , age))
+
+# 换行输出
+print("123456789")
+print("12345\n789")
+
+
+# 定义一个变量a
+a = 10
+print(a)
+
+# 定义整数类型的变量i,值为20
+i = 20
+print(type(i))
+
+# 定义小数类型的变量f,值为3.14
+f = 3.14
+print(type(f))
+# 定义字符串类型的变量s,值为"hello"
+s = "hello"
+print(type(s))
+# 定义字符串类型的变量b,值为True
+b = True
+print(type(b))
+
+# 定义小数类型的变量f
+f = 3.14
+
+# 定义一个变量b,并把a赋值给b
+b = a
+print(b)
+
+# 查看关键字
+import keyword
+print(keyword.kwlist)
+
+# 定义年龄
+age = 20
+print(age + 10)
+age = 10
+print(age + 1)
+
+# self-introduction age
+age = 23
+print("我的年龄是%d岁" % age)
+
+# self-introduction subject
+sub = "Python"
+print("我学的学科是%s" % sub)
+
+# 圆周率值pi
+pi = 3.14
+print("圆周率是%.2f" % pi)
+
+# self-introduction name
+user_name = "张世谦"
+print("姓名是%s,年龄是%d岁"% (user_name,age))
+
+# 请输入用户名
+user_name = input("请录入一个用户名:")
+print(user_name)
+
+# 请输入用户名
+print(input("请录入一个用户名:"))
+
+
+print(type(user_name))
+
+str1 = type(user_name)
+print(str1)
+
+# 年龄练习
+age02 = input("请输入您的年龄:")
+str02 = type(age02)
+print(age02)
+print(str02)
+
+# self_introduction
+name = "小明"
+print("我的名字叫%s,请多多关照!"% name)
+student_no = "000001"
+print("我的学号是%s" % student_no)
+
+
+
